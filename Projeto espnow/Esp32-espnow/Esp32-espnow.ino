@@ -1,7 +1,7 @@
 #include <esp_now.h>
 #include <WiFi.h>
 
-uint8_t broadcastAddress[] = {0x84, 0xF3, 0xEB, 0xEE, 0x27, 0x26};
+uint8_t broadcastAddress[] = {0x00, 0x00, 0x00, 0x00, 0x00, 0x00}; // digite o mac do esp8266 
 
 typedef struct struct_message {
     char a[32];
